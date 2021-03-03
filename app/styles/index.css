@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-
+/* Font Section --------------------- */
 @font-face {
   font-family: "Nominee";
   src: url("../fonts/Nominee-Medium1.ttf");
@@ -36,6 +36,9 @@ body {
   src: url("../fonts/16422.ttf");
   font-weight: 500;
 }
+/* --------------------- Font Section */
+
+/* Header Section --------------------- */
 
 .header {
   display: flex;
@@ -75,7 +78,6 @@ body {
   margin-right: 5px;
 }
 
-/* 7a44e4 */
 .navigation-section_nav-button:hover {
   background-color: rgba(150, 221, 187);
   color: white;
@@ -95,8 +97,9 @@ body {
   margin-right: 0;
 }
 
+/* --------------------- Header Section */
+/* Welcome Section --------------------- */
 .main_welcome-section {
-  /* background-image: url("../images/images/mainBackground.png"); */
   height: 95vh;
   width: 100%;
   display: flex;
@@ -118,6 +121,9 @@ body {
   font-family: "Avant";
   margin-left: 10%;
 }
+/* --------------------- Welcome Section */
+/* Intro Section --------------------- */
+
 .main_intro-section {
   height: 15vh;
   background-color: #78d3a7;
@@ -147,6 +153,9 @@ body {
   border-top: 5vw solid #78d3a7;
   z-index: 100;
 }
+/* --------------------- Intro Section */
+
+/* Services and Benefits Section --------------------- */
 
 .main_services-section,
 .main_benefit-section {
@@ -207,7 +216,8 @@ body {
   width: 15%;
 }
 
-.main_services-section::after {
+.main_services-section::after,
+.main_benefit-section::after {
   content: "";
   display: block;
   position: absolute;
@@ -221,24 +231,13 @@ body {
   z-index: 1000;
 }
 
-.main_social-section {
-  height: 100vh;
-  background-image: url("../images/images/backgroundSocial.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.main_benefit-section {
+  min-height: 100vh;
 }
 
-.main_header-section {
-  height: 10vh;
-  color: #fff;
-  font-family: "Nominee";
-  font-weight: 500;
-  font-size: 40px;
-  padding: 0px 10%;
-  display: flex;
-  align-items: center;
-}
+/* --------------------- Services and Benefits Section */
 
+/* Insurance Section --------------------- */
 .main_insurance-section::after {
   content: "";
   display: block;
@@ -251,10 +250,6 @@ body {
   border-right: 20vw solid transparent;
   border-top: 5vw solid rgba(150, 221, 187, 0.2);
   z-index: 1000;
-}
-
-.main_benefit-section {
-  min-height: 100vh;
 }
 
 .main_insurance-section {
@@ -316,3 +311,69 @@ body {
   color: #152242;
   font-weight: 500;
 }
+/* --------------------- Insurance Section */
+
+/* Compare Section --------------------- */
+.main_compare-section {
+  height: 100vh;
+  background-color: rgba(150, 221, 187, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+}
+.compare-section_header {
+  font-size: 40px;
+  color: #152242;
+  font-family: "Nominee";
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.compare-section_table {
+  width: 100%;
+  background-color: #fff;
+  height: 70vh;
+  margin-top: 50px;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.compare-table_row {
+  display: flex;
+  margin: 10px;
+  border-bottom: #78d3a7 solid 2px;
+}
+
+.compare-row_first-column {
+  width: 50%;
+}
+.compare-row_second-column {
+  width: 25%;
+}
+.compare-row_third-column {
+  width: 25%;
+}
+
+.first-header-column,
+.second-header-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.first-header-column > img {
+  margin-bottom: 5px;
+}
+
+/* --------------------- Compare Section */
+
+/* Application Section --------------------- */
+/* --------------------- Application Section */
+/* FAQ Section --------------------- */
+/* --------------------- FAQ Section */
+/* Footer Section --------------------- */
+/* --------------------- Footer Section */

@@ -332,6 +332,7 @@ body {
 
 .compare-section_table {
   width: 100%;
+  padding: 10px 15px;
   background-color: #fff;
   height: 70vh;
   margin-top: 50px;
@@ -342,18 +343,30 @@ body {
 
 .compare-table_row {
   display: flex;
-  margin: 10px;
+  /* margin: 10px; */
   border-bottom: #78d3a7 solid 2px;
+  height: 20%;
+}
+
+.compare-table_row:last-child {
+  border: none;
 }
 
 .compare-row_first-column {
-  width: 50%;
+  height: 100%;
+  width: 70%;
+  font-size: 25px;
+  font-family: "Nominee";
+  font-weight: 400;
+  display: flex;
+  align-items: center;
 }
-.compare-row_second-column {
-  width: 25%;
-}
+.compare-row_second-column,
 .compare-row_third-column {
-  width: 25%;
+  width: 15%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
 }
 
 .first-header-column,
@@ -367,6 +380,13 @@ body {
 
 .first-header-column > img {
   margin-bottom: 5px;
+}
+
+.check-mark {
+  background-image: url(../images/images/list-bullet.svg);
+}
+.cross-mark {
+  background-image: url(../images/images/cross.svg);
 }
 
 /* --------------------- Compare Section */

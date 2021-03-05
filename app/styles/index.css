@@ -102,12 +102,12 @@ body {
 .contact-link:last-child {
   margin-right: 0;
 }
-.navigation-section_nav-button > a {
+.navigation-section_nav-button {
   text-decoration: none;
   color: #152242;
 }
 
-.navigation-section_nav-button:hover > a {
+.navigation-section_nav-button:hover {
   text-decoration: none;
   color: #fff;
 }
@@ -671,49 +671,70 @@ body {
 /* --------------------- Application Section */
 /* FAQ Section --------------------- */
 .main_FAQ-section {
-  height: 100vh;
-  padding: 0 10%;
+  height: fit-content;
+  height: -moz-fit-content;
+  padding: 0px 10% 50px 10%;
   background-color: rgba(150, 221, 187, 0.5);
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-.main_FAQ-section {
-  display: flex;
-  flex-direction: column;
-}
-.question-block_answer-block {
-  display: none;
-}
+
 input[name="FAQsection"] {
   display: none;
 }
-input[name="FAQsection"]:checked + label > .question-block_answer-block {
-  display: block;
-}
+
 input[name="FAQsection"]:checked
   + label
   > .question-block_row
   > .question-block-indicator {
   transform: rotate(45deg);
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
 }
 
 .FAQ-section_question-block {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   background-color: #fff;
   height: fit-content;
   height: -moz-fit-content;
-  font-family: "Nominee";
-  font-size: 30px;
   color: #78d3a7;
+  padding: 20px 30px;
+  overflow-y: hidden;
+  border-radius: 22px;
+}
+.question-block_answer-block {
+  display: none;
+}
+input[name="FAQsection"]:checked + label > .question-block_answer-block {
+  display: block;
 }
 
 .question-block-indicator {
   width: 24px;
   height: 24px;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.question-block_row {
+  display: flex;
+  align-items: center;
+  font-family: "Nominee";
+  font-size: 25px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question-block_answer-block {
+  margin-top: 18px;
+  font-family: "Nominee";
+  font-size: 20px;
+  font-weight: 400;
+  color: #152242;
 }
 /* --------------------- FAQ Section */
 /* Footer Section --------------------- */

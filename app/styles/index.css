@@ -5,7 +5,32 @@ body {
   background-image: url("../images/images/mainBackground.png");
   background-attachment: fixed;
   background-size: cover;
+  position: relative;
 }
+
+/* Button PageUp Section --------------------- */
+#toTopButton {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  z-index: 100000;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(150, 221, 187, 0.8);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 18px;
+  background-image: url("../images/images/upArrow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+/* --------------------- Button PageUp Section */
+/* Font Section --------------------- */
 /* Font Section --------------------- */
 @font-face {
   font-family: "Nominee";
@@ -738,4 +763,9 @@ input[name="FAQsection"]:checked + label > .question-block_answer-block {
 }
 /* --------------------- FAQ Section */
 /* Footer Section --------------------- */
+
+.footer {
+  min-height: 80px;
+  background-color: #fff;
+}
 /* --------------------- Footer Section */

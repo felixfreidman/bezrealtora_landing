@@ -1,0 +1,151 @@
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .main_applicationForm-section {
+    height: fit-content;
+    padding: 50px 50px 0px 50px;
+  }
+  .applicationForm {
+    padding: 45px 20px;
+  }
+  .applicationForm_boorkmark {
+    border-top: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #1c2443;
+    border-right: 20px solid #1c2443;
+  }
+  .applicationForm_advertismentInfo-section {
+    align-items: flex-start;
+  }
+  .advertismentInfo-section_header {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .advertismentInfo-section_subheader {
+    font-size: 15px;
+  }
+  .main_applicationFormBig-section {
+    padding: 50px 50px 0px 50px;
+    background-color: #fff;
+    height: 370px;
+  }
+  .applicationFormBig_image {
+    margin-right: 30px;
+  }
+  .applicationFormBig_advertisment-section {
+    height: 40%;
+  }
+  .advertismentInfoBig-section_header {
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+  .advertismentInfoBig-section_subheader {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 1023px) {
+  .main_applicationForm-section {
+    display: none;
+  }
+
+  .main_applicationFormBig-section {
+    display: none;
+  }
+  .main_applicationForm-section-mobile {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 719px) {
+  .main_applicationForm-section {
+    display: none;
+  }
+
+  .main_applicationFormBig-section {
+    display: none;
+  }
+  .main_applicationForm-section-mobile {
+    display: flex;
+  }
+}
+@media (min-width: 413px) and (max-width: 599px) {
+  .main_applicationForm-section {
+    display: none;
+  }
+
+  .main_applicationFormBig-section {
+    display: none;
+  }
+  .main_applicationForm-section-mobile {
+    display: flex;
+  }
+  .applicationForm-mobile {
+    padding: 20px;
+  }
+
+  .info-section-mobile_header {
+    font-size: 33px;
+  }
+  .info-section-mobile_subheader {
+    font-size: 12.7px;
+    text-align: center;
+  }
+  .telephone-input_preNumber {
+    font-size: 18px;
+    height: 35px;
+  }
+  .telephone-input_number {
+    font-size: 18px;
+    height: 35px;
+  }
+  .requredActions-section_apply-button {
+    font-size: 14px;
+    height: 35px;
+  }
+  .personalAgree-label {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 413px) {
+  .main_applicationForm-section {
+    display: none;
+  }
+
+  .main_applicationFormBig-section {
+    display: none;
+  }
+  .main_applicationForm-section-mobile {
+    display: flex;
+  }
+  .applicationForm-mobile {
+    padding: 20px;
+    height: 80%;
+  }
+
+  .info-section-mobile_header {
+    font-size: 25px;
+  }
+  .info-section-mobile_subheader {
+    font-size: 13px;
+    text-align: center;
+  }
+  .telephone-input_preNumber {
+    font-size: 13px;
+    height: 35px;
+  }
+  .telephone-input_number {
+    font-size: 13px;
+    height: 35px;
+  }
+  .requredActions-section_apply-button {
+    font-size: 13px;
+    height: 35px;
+  }
+  .requiredActions-section_telephone-input {
+    margin-bottom: 0;
+  }
+  .personalAgree-label {
+    margin-top: 0;
+    font-size: 9px;
+    cursor: pointer;
+  }
+}

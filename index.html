@@ -9,8 +9,10 @@
       href="./app/images/favicon.png"
       type="image/png"
     />
-    <link rel="stylesheet" href="./app/styles/index.css" />
+    <link rel="stylesheet" href="./app/styles/applicationForm.css" />
     <link rel="stylesheet" href="./app/styles/index-mobile.css" />
+    <link rel="stylesheet" href="./app/styles/index.css" />
+
     <title>
       Безриелтора.ру - сайт объявлений от собственников недвижимости в Иркутске.
     </title>
@@ -22,20 +24,20 @@
         <div class="logo-text">РАНЬТЕ</div>
       </div>
       <div class="header_navigation-section">
-        <div
-          class="navigation-section_nav-button button-border"
-          href="insurance-section "
-        >
-          Страховка
+        <div class="navigation-section_nav-button button-border">
+          <a href="#service-section"> Сервис </a>
         </div>
-        <div
-          class="navigation-section_nav-button button-border"
-          href="benefits-section"
-        >
-          Преимущества
+        <div class="navigation-section_nav-button button-border">
+          <a href="#insurance-section"> Страховка </a>
         </div>
         <div class="navigation-section_nav-button" href="faq-seciton">
-          Вопросы
+          <a href="#benefits-section"> Преимущества </a>
+        </div>
+        <div class="navigation-section_nav-button" href="faq-seciton">
+          <a href="#application-section"> Оставить заявку </a>
+        </div>
+        <div class="navigation-section_nav-button" href="faq-seciton">
+          <a href="#FAQ-section"> Вопросы </a>
         </div>
       </div>
       <div class="header_contact-section">
@@ -77,7 +79,7 @@
           юридически и покроем потенциальные риски даже после заселения жильцов.
         </span>
       </div>
-      <div class="main_services-section">
+      <div class="main_services-section" id="service-section">
         <span class="services-section_header"> С чем поможет сдай/сними? </span>
         <div class="services-section">
           <div class="section_content">
@@ -148,7 +150,7 @@
           </div>
         </div>
       </div>
-      <div class="main_insurance-section">
+      <div class="main_insurance-section" id="insurance-section">
         <img
           src="./app/images/images/insurance.jpg"
           alt=""
@@ -195,7 +197,7 @@
           </div>
         </div>
       </div>
-      <div class="main_benefit-section">
+      <div class="main_benefit-section" id="benefits-section">
         <span class="services-section_header">Преимущества</span>
         <div class="services-section">
           <div class="section_content">
@@ -309,6 +311,117 @@
             <div class="compare-row_third-column cross-mark"></div>
           </div>
         </div>
+        <div class="wave"></div>
+      </div>
+      <div class="main_applicationForm-section" id="application-section">
+        <div class="applicationForm">
+          <div class="applicationForm_advertismentInfo-section">
+            <span class="advertismentInfo-section_header">Оставьте заявку</span>
+            <span class="advertismentInfo-section_subheader"
+              >Мы перезвоним Вам и расскажем подробно о том, как работает
+              услуга</span
+            >
+          </div>
+          <form
+            action="#"
+            method="post"
+            class="applicationForm_applyInfo-section"
+          >
+            <div class="applyInfo-section_requiredActions-section">
+              <div class="requiredActions-section_telephone-input">
+                <div class="telephone-input_preNumber">+7</div>
+                <input type="text" class="telephone-input_number" />
+              </div>
+              <button class="requredActions-section_apply-button">
+                Оставить заявку
+              </button>
+            </div>
+            <input
+              type="checkbox"
+              name="agreeCheckbox"
+              id="agreeCheckbox"
+              class="applyInfo-section_personalAgree-checkbox"
+              checked
+            />
+            <label for="agreeCheckbox" class="personalAgree-label"
+              >Я даю согласие на
+              <a href="#">Обработку персональных данных</a></label
+            >
+          </form>
+        </div>
+        <div class="waveApplication"></div>
+      </div>
+      <div class="main_applicationForm-section-mobile" id="application-section">
+        <div class="applicationForm-mobile">
+          <div class="applicatonForm_info-section-mobile">
+            <span class="info-section-mobile_header"
+              >Не нашли, что искали?</span
+            >
+            <span class="info-section-mobile_subheader"
+              >Поможем найти квартиру от собственника по лучшей цене</span
+            >
+          </div>
+          <div class="applicationForm_apply-section-mobile">
+            <form
+              action="#"
+              method="post"
+              class="applicationForm_applyInfo-section-mobile"
+            >
+              <div class="applyInfo-section_requiredActions-section">
+                <div class="requiredActions-section_telephone-input">
+                  <div class="telephone-input_preNumber">+7</div>
+                  <input type="text" class="telephone-input_number" />
+                </div>
+                <button class="requredActions-section_apply-button">
+                  Оставить заявку
+                </button>
+              </div>
+              <input
+                type="checkbox"
+                name="agreeCheckbox"
+                id="agreeCheckbox"
+                class="applyInfo-section_personalAgree-checkbox"
+              />
+              <label for="agreeCheckbox" class="personalAgree-label"
+                >Я даю согласие на
+                <a href="#">Обработку персональных данных</a></label
+              >
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="" id="FAQ-section">
+        <input type="checkbox" name="FAQsection" id="firstQuestion" />
+        <label for="firstQuestion" class="FAQ-section_question-block">
+          <div class="question-block_row">
+            <div class="quiestion-block_quiestion-content">
+              Чем полезен Наш сервис собственнику?
+            </div>
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              class="question-block-indicator"
+            >
+              <g
+                stroke="none"
+                stroke-width="1px"
+                fill="none"
+                fill-rule="evenodd"
+                stroke-linecap="square"
+              >
+                <g transform="translate(1.000000, 1.000000)" stroke="#222222">
+                  <path d="M0,11 L22,11"></path>
+                  <path d="M11,0 L11,22"></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+
+          <div class="question-block_answer-block"></div>
+        </label>
       </div>
     </div>
     <div class="footer"></div>

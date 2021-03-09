@@ -67,7 +67,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #fff;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
   z-index: 10000;
@@ -82,10 +82,11 @@ body {
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 5%;
 }
 .logo-text {
   font-family: "Nominee";
-  font-weight: 400;
+  font-weight: 500;
   margin-left: 5px;
 }
 
@@ -117,6 +118,7 @@ body {
 .header_contact-section {
   display: flex;
   align-items: center;
+  margin-right: 5%;
 }
 
 .contact-link {
@@ -729,6 +731,7 @@ input[name="FAQsection"]:checked
   padding: 20px 30px;
   overflow-y: hidden;
   border-radius: 22px;
+  cursor: pointer;
 }
 .question-block_answer-block {
   display: none;
@@ -767,5 +770,22 @@ input[name="FAQsection"]:checked + label > .question-block_answer-block {
 .footer {
   min-height: 80px;
   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.link-section_user-agreement-link,
+.link-section_user-agreement-link:visited {
+  font-family: "Nominee";
+  font-weight: 400;
+  text-decoration: none;
+  color: #78d3a7;
+}
+
+.link-section_user-agreement-link:hover,
+.link-section_user-agreement-link:active {
+  color: rgba(150, 221, 187, 0.8);
 }
 /* --------------------- Footer Section */

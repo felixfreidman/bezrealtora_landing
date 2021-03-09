@@ -149,6 +149,7 @@ body {
   justify-content: center;
   flex-direction: column;
   cursor: default;
+  position: relative;
 }
 
 .welcome-section_header {
@@ -166,6 +167,39 @@ body {
   margin-left: 10%;
 }
 /* --------------------- Welcome Section */
+
+/* Number Application Section --------------------- */
+.main_number-application-form {
+  width: 30%;
+  height: 20%;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.97);
+  border-radius: 22px;
+  align-items: center;
+  padding: 20px 20px;
+}
+.number-application-form_label {
+  font-size: 15px;
+  color: #78d3a7;
+  font-family: "Nominee";
+  text-align: center;
+}
+
+.number-application-form_input {
+  outline: none;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 5px 10px;
+  color: #78d3a7;
+  background-color: #fff;
+}
+
+/* --------------------- Number Application Section */
+
 /* Intro Section --------------------- */
 
 .main_intro-section {

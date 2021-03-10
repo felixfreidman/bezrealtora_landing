@@ -168,38 +168,6 @@ body {
 }
 /* --------------------- Welcome Section */
 
-/* Number Application Section --------------------- */
-.main_number-application-form {
-  width: 30%;
-  height: 20%;
-  position: absolute;
-  top: 30%;
-  right: 5%;
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.97);
-  border-radius: 22px;
-  align-items: center;
-  padding: 20px 20px;
-}
-.number-application-form_label {
-  font-size: 15px;
-  color: #78d3a7;
-  font-family: "Nominee";
-  text-align: center;
-}
-
-.number-application-form_input {
-  outline: none;
-  border-radius: 8px;
-  font-size: 20px;
-  padding: 5px 10px;
-  color: #78d3a7;
-  background-color: #fff;
-}
-
-/* --------------------- Number Application Section */
-
 /* Intro Section --------------------- */
 
 .main_intro-section {
@@ -823,3 +791,61 @@ input[name="FAQsection"]:checked + label > .question-block_answer-block {
   color: rgba(150, 221, 187, 0.8);
 }
 /* --------------------- Footer Section */
+
+/* Number Application Section --------------------- */
+.main_number-application-form {
+  width: 30%;
+  height: 25%;
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 22px;
+  align-items: center;
+  padding: 20px 20px;
+  font-family: "Nominee";
+  font-weight: 400;
+}
+.number-application-form_label {
+  font-size: 18px;
+  color: #152242;
+  font-family: "Nominee";
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.number-application-form_input {
+  outline: none;
+  border-radius: 8px;
+  font-size: 24px;
+  padding: 10px 15px;
+  color: #78d3a7;
+  background-color: #fff;
+}
+.number-application-form_input::placeholder {
+  color: #ccc;
+}
+
+.number-application-form_button {
+  color: white;
+  width: 80%;
+  height: 60px;
+  font-size: 24px;
+  font-family: "Nominee";
+  font-weight: 500;
+  background-color: #78d3a7;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+#application-form_input {
+  margin-right: 0;
+  width: 80%;
+  margin-bottom: 20px;
+}
+/* --------------------- Number Application Section */

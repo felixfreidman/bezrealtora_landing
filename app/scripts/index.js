@@ -1,5 +1,6 @@
 mybutton = document.getElementById("toTopButton");
-
+let burgerButton = document.querySelector(".header_burger-button-mobile");
+let darkLayerContainer = document.querySelector(".header_dark-layer");
 window.onscroll = function () {
   scrollFunction();
 };
@@ -16,4 +17,11 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-element.style;
+
+burgerButton.addEventListener("click", () => {
+  darkLayerContainer.style.display = "flex";
+});
+
+darkLayerContainer.addEventListener("click", () => {
+  darkLayerContainer.style.display = "none";
+});

@@ -76,6 +76,7 @@ body {
   min-height: 80px;
   width: 100%;
   cursor: default;
+  align-items: center;
 }
 .header_logo-section {
   display: flex;
@@ -171,7 +172,8 @@ body {
 /* Intro Section --------------------- */
 
 .main_intro-section {
-  height: 15vh;
+  height: fit-content;
+  height: -moz-fit-content;
   background-color: #78d3a7;
   display: flex;
   flex-direction: column;
@@ -212,7 +214,8 @@ body {
     url(../images/images/cube.svg) 85% 90% no-repeat, #fff;
   background-size: 10%;
   background-attachment: fixed;
-  min-height: 150vh;
+  height: fit-content;
+  height: -moz-fit-content;
   padding: 50px 10%;
   display: flex;
   flex-direction: column;
@@ -301,7 +304,7 @@ body {
 }
 
 .main_insurance-section {
-  height: 100vh;
+  height: 70vh;
   position: relative;
   background-color: #fff;
   cursor: default;
@@ -309,17 +312,17 @@ body {
 }
 
 .insurance-image {
-  width: 40%;
+  width: 30%;
   height: 100%;
 }
 
 .insurance-section_list-section {
-  width: 60%;
+  width: 70%;
   height: 100%;
-  background-color: rgba(150, 221, 187, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgba(150, 221, 187, 0.2);
 }
 
 .list-section_header {
@@ -338,19 +341,23 @@ body {
   font-weight: 500;
 }
 .list-section_list-table {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   width: 80%;
 }
 .list-table_row {
   display: flex;
-  min-height: 15vh;
+  min-height: 50px;
+  height: fit-content;
+  height: -moz-fit-content;
+  padding: 10px;
 }
 .list-row_first-column {
   background-image: url(../images/images/list-bullet.svg);
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 30%;
+  background-position: center;
   width: 20%;
 }
 .list-row_second-column {
@@ -416,7 +423,7 @@ body {
   width: 15%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 40%;
+  background-size: 20%;
 }
 
 .first-header-column,
@@ -650,7 +657,7 @@ body {
   max-height: 300px;
   height: 300px;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .applicationForm-mobile {
   width: 86%;
@@ -702,8 +709,8 @@ body {
 .main_FAQ-section {
   height: fit-content;
   height: -moz-fit-content;
-  padding: 0px 10% 50px 10%;
-  background-color: rgba(150, 221, 187, 0.5);
+  padding: 0px 5% 50px 5%;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -722,7 +729,7 @@ input[name="FAQsection"]:checked
 }
 
 .FAQ-section_question-block {
-  margin-top: 50px;
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -734,6 +741,10 @@ input[name="FAQsection"]:checked
   overflow-y: hidden;
   border-radius: 22px;
   cursor: pointer;
+}
+
+.FAQ-section_question-block:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
 .question-block_answer-block {
   display: none;
@@ -771,7 +782,8 @@ input[name="FAQsection"]:checked + label > .question-block_answer-block {
 
 .footer {
   min-height: 80px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1);
+  border-top: 1px solid #78d3a7;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -795,7 +807,7 @@ input[name="FAQsection"]:checked + label > .question-block_answer-block {
 /* Number Application Section --------------------- */
 .main_number-application-form {
   width: 30%;
-  height: 25%;
+  height: 220px;
   position: absolute;
   top: 35%;
   right: 5%;

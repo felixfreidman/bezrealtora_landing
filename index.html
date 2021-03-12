@@ -10,8 +10,9 @@
       type="image/png"
     />
     <link rel="stylesheet" href="./app/styles/applicationForm.css" />
-    <link rel="stylesheet" href="./app/styles/index-mobile.css" />
     <link rel="stylesheet" href="./app/styles/index.css" />
+
+    <link rel="stylesheet" href="./app/styles/index-mobile.css" />
 
     <title>
       Безриелтора.ру - сайт объявлений от собственников недвижимости в Иркутске.
@@ -71,6 +72,59 @@
             class="contact-logo"
           />
         </a>
+      </div>
+      <div class="header_burger-button-mobile"></div>
+      <div class="header_dark-layer">
+        <div class="header_mobile-header">
+          <div class="header_navigation-section-mobile">
+            <a
+              href="#service-section"
+              class="navigation-section_nav-button button-border"
+              >Сервис</a
+            >
+            <a
+              href="#insurance-section"
+              class="navigation-section_nav-button button-border"
+              >Страховка</a
+            >
+            <a
+              href="#benefits-section"
+              class="navigation-section_nav-button button-border"
+              >Преимущества</a
+            >
+            <a
+              href="#application-section"
+              class="navigation-section_nav-button button-border"
+              >Подать заявку</a
+            >
+            <a
+              href="#FAQ-section"
+              class="navigation-section_nav-button button-border"
+              >Вопросы</a
+            >
+          </div>
+          <div class="header_contact-section-mobile">
+            <a href="#" class="contact-link">
+              <img
+                src="./app/images/images/instagram.svg"
+                alt=""
+                class="contact-logo"
+              /> </a
+            ><a href="#" class="contact-link">
+              <img
+                src="./app/images/images/vk.svg"
+                alt=""
+                class="contact-logo"
+              /> </a
+            ><a href="#" class="contact-link">
+              <img
+                src="./app/images/images/telegram.svg"
+                alt=""
+                class="contact-logo"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="main">
@@ -384,16 +438,11 @@
             >
           </form>
         </div>
-        <div class="waveApplication"></div>
-      </div>
-      <div class="main_applicationForm-section-mobile" id="application-section">
         <div class="applicationForm-mobile">
           <div class="applicatonForm_info-section-mobile">
             <span class="info-section-mobile_header"
-              >Не нашли, что искали?</span
-            >
-            <span class="info-section-mobile_subheader"
-              >Поможем найти квартиру от собственника по лучшей цене</span
+              >Мы перезвоним Вам и расскажем подробно о том, как работает
+              услуга</span
             >
           </div>
           <div class="applicationForm_apply-section-mobile">
@@ -415,6 +464,7 @@
                 type="checkbox"
                 name="agreeCheckbox"
                 id="agreeCheckbox"
+                checked
                 class="applyInfo-section_personalAgree-checkbox"
               />
               <label for="agreeCheckbox" class="personalAgree-label"
@@ -424,6 +474,7 @@
             </form>
           </div>
         </div>
+        <div class="waveApplication"></div>
       </div>
       <div class="main_FAQ-section" id="FAQ-section">
         <input type="checkbox" name="FAQsection" id="firstQuestion" />

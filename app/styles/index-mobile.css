@@ -1,0 +1,273 @@
+/* Header burger section -------------------- */
+.header_burger-button-mobile {
+  width: 40px;
+  height: 40px;
+  background: url("../images/images/header_burger.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+.header_dark-layer {
+  /* transform: translateX(100%); */
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+  display: none;
+}
+
+.header_navigation-section-mobile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+.header_contact-section-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header_mobile-header {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  right: 0;
+}
+
+.header_navigation-section-mobile > a {
+  font-family: "Nominee";
+  height: 10vh;
+  font-size: 20px;
+}
+
+.header_contact-section-mobile > a > img {
+  width: 60px;
+  height: 60px;
+}
+
+.header_navigation-section-mobile {
+  padding-bottom: 50px;
+}
+
+/* ------------------ Header burger section */
+@media screen and (max-width: 850px) {
+  body {
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .main_welcome-section {
+    height: fit-content;
+    height: -moz-fit-content;
+    padding-top: 100px;
+  }
+  .insurance-image {
+    display: none;
+  }
+  .main_insurance-section {
+    height: fit-content;
+    height: -moz-fit-content;
+  }
+  .insurance-section_list-section {
+    width: 100%;
+  }
+  .main_compare-section {
+    padding: 0 2%;
+  }
+
+  .compare-row_first-column {
+    font-size: 15px;
+    width: 50%;
+  }
+  .compare-row_second-column,
+  .compare-row_third-column {
+    width: 25%;
+  }
+  .applicationForm {
+    display: none;
+  }
+  .applicationForm-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(150, 221, 187, 0.3);
+    height: fit-content;
+    height: -moz-fit-content;
+    padding: 10px 15px;
+    width: 95%;
+  }
+  .main_applicationForm-section {
+    height: fit-content;
+    height: -moz-fit-content;
+    padding-top: 40px;
+  }
+  .personalAgree-label {
+    font-family: "Nominee";
+  }
+  .applicationForm_applyInfo-section-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-section-mobile_header {
+    font-family: "Nominee";
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .main_FAQ-section {
+    padding: 0 1% 50px 1%;
+  }
+  #toTopButton {
+    width: 40px;
+    height: 40px;
+  }
+  .compare-section_header {
+    font-size: 38px;
+  }
+  .main_number-application-form {
+    height: 250px;
+
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .insurance-image {
+    display: none;
+  }
+  .main_insurance-section {
+    height: fit-content;
+    height: -moz-fit-content;
+  }
+  .insurance-section_list-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main_number-application-form {
+    height: 200px;
+  }
+  .main_applicationForm-section {
+    padding: 0%;
+  }
+  .number-application-form_label {
+    font-size: 14px;
+  }
+  .number-application-form_button {
+    height: 50px;
+    font-size: 20px;
+  }
+  .insurance-image {
+    width: 40%;
+  }
+
+  .main_applicationForm-section {
+    padding: 0 5%;
+  }
+
+  .header_navigation-section,
+  .header_contact-section {
+    display: none;
+  }
+  .header_burger-button-mobile {
+    display: block;
+  }
+  .main_number-application-form {
+    position: static;
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .number-application-form_label {
+    font-size: 30px;
+  }
+  .main_insurance-section {
+    height: 75vh;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main_number-application-form {
+    height: 200px;
+  }
+  .number-application-form_label {
+    font-size: 14px;
+  }
+  .number-application-form_button {
+    height: 50px;
+    font-size: 20px;
+  }
+  .insurance-image {
+    width: 40%;
+  }
+
+  .main_applicationForm-section {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .welcome-section_header {
+    font-size: 40px;
+  }
+  .welcome-section_subheader {
+    font-size: 25px;
+  }
+  .intro-section_text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .list-section_header {
+    font-size: 30px;
+  }
+  .list-section_subheader {
+    font-size: 14px;
+  }
+  .content-head {
+    font-size: 25px;
+  }
+  .content-body {
+    font-size: 16px;
+  }
+
+  .compare-row_first-column {
+    font-size: 20px;
+  }
+
+  .personalAgree-label {
+    font-size: 10px;
+  }
+  .question-block_row {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .welcome-section_header {
+    font-size: 45px;
+  }
+  .list-section_subheader {
+    font-size: 18px;
+  }
+
+  .compare-row_first-column {
+    font-size: 20px;
+  }
+
+  .personalAgree-label {
+    font-size: 12px;
+  }
+  .question-block_row {
+    font-size: 22px;
+  }
+}

@@ -56,6 +56,153 @@
 }
 
 /* ------------------ Header burger section */
+
+@media screen and (max-width: 1300px) {
+  .welcome-section_header {
+    font-size: 45px;
+  }
+  .list-section_subheader {
+    font-size: 18px;
+  }
+
+  .compare-row_first-column {
+    font-size: 20px;
+  }
+
+  .personalAgree-label {
+    font-size: 12px;
+  }
+  .question-block_row {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .welcome-section_header {
+    font-size: 40px;
+  }
+  .welcome-section_subheader {
+    font-size: 25px;
+  }
+  .intro-section_text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .list-section_header {
+    font-size: 30px;
+  }
+  .list-section_subheader {
+    font-size: 14px;
+  }
+  .content-head {
+    font-size: 25px;
+  }
+  .content-body {
+    font-size: 16px;
+  }
+
+  .compare-row_first-column {
+    font-size: 20px;
+  }
+
+  .personalAgree-label {
+    font-size: 10px;
+  }
+  .question-block_row {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .main_number-application-form {
+    height: 200px;
+  }
+  .number-application-form_label {
+    font-size: 14px;
+  }
+  .number-application-form_button {
+    height: 50px;
+    font-size: 20px;
+  }
+  .insurance-image {
+    width: 40%;
+  }
+
+  .main_applicationForm-section {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-size: 220%;
+    background-position: center;
+  }
+  .main_welcome-section {
+    height: fit-content;
+    height: -moz-fit-content;
+    padding-bottom: 50px;
+    padding-top: 100px;
+  }
+  .main_number-application-form {
+    height: 200px;
+  }
+  .main_applicationForm-section {
+    padding: 0%;
+  }
+  .number-application-form_label {
+    font-size: 14px;
+  }
+  .number-application-form_button {
+    height: 50px;
+    font-size: 20px;
+  }
+  .insurance-image {
+    display: none;
+  }
+  .insurance-section_list-section {
+    width: 100%;
+  }
+
+  .main_applicationForm-section {
+    padding: 50px 5%;
+  }
+
+  .header_navigation-section,
+  .header_contact-section {
+    display: none;
+  }
+  .header_burger-button-mobile {
+    display: block;
+  }
+  .main_number-application-form {
+    position: static;
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .number-application-form_label {
+    font-size: 30px;
+  }
+  .main_insurance-section {
+    height: fit-content;
+    height: -moz-fit-content;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .insurance-image {
+    display: none;
+  }
+  .main_insurance-section {
+    height: fit-content;
+    height: -moz-fit-content;
+  }
+  .insurance-section_list-section {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 850px) {
   body {
     background-size: 200%;
@@ -78,7 +225,7 @@
     width: 100%;
   }
   .main_compare-section {
-    padding: 0 2%;
+    padding: 0 2% 50px 2%;
   }
 
   .compare-row_first-column {
@@ -139,135 +286,161 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-  .insurance-image {
-    display: none;
+@media screen and (max-width: 700px) {
+  .number-application-form_label {
+    font-size: 20px;
   }
-  .main_insurance-section {
+
+  .main_number-application-form {
     height: fit-content;
     height: -moz-fit-content;
   }
-  .insurance-section_list-section {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .main_number-application-form {
-    height: 200px;
-  }
-  .main_applicationForm-section {
-    padding: 0%;
-  }
-  .number-application-form_label {
-    font-size: 14px;
-  }
-  .number-application-form_button {
-    height: 50px;
-    font-size: 20px;
-  }
-  .insurance-image {
-    width: 40%;
-  }
-
-  .main_applicationForm-section {
-    padding: 0 5%;
-  }
-
-  .header_navigation-section,
-  .header_contact-section {
-    display: none;
-  }
-  .header_burger-button-mobile {
-    display: block;
-  }
-  .main_number-application-form {
-    position: static;
-    margin-top: 20px;
-    margin-left: 10%;
-    width: 80%;
-  }
-  .number-application-form_label {
+  .services-section_header,
+  .compare-section_header {
     font-size: 30px;
   }
-  .main_insurance-section {
-    height: 75vh;
+  .main_services-section,
+  .main_benefit-section {
+    background: #fff;
+    height: fit-content;
+    padding: 50px 3%;
+  }
+  .services-section {
+    width: 90%;
   }
 }
-
-@media screen and (max-width: 1100px) {
-  .main_number-application-form {
-    height: 200px;
-  }
-  .number-application-form_label {
-    font-size: 14px;
-  }
-  .number-application-form_button {
-    height: 50px;
-    font-size: 20px;
-  }
-  .insurance-image {
-    width: 40%;
-  }
-
-  .main_applicationForm-section {
-    padding: 0 5%;
-  }
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   .welcome-section_header {
-    font-size: 40px;
+    font-size: 30px;
   }
-  .welcome-section_subheader {
-    font-size: 25px;
+  .main_intro-section {
+    padding: 10px 3%;
   }
   .intro-section_text {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .number-application-form_label {
+    font-size: 15px;
   }
 
   .list-section_header {
-    font-size: 30px;
-  }
-  .list-section_subheader {
-    font-size: 14px;
-  }
-  .content-head {
-    font-size: 25px;
-  }
-  .content-body {
-    font-size: 16px;
-  }
-
-  .compare-row_first-column {
     font-size: 20px;
   }
 
-  .personalAgree-label {
+  .list-section_subheader {
+    font-size: 12px;
+  }
+  .list-section_list-table {
+    width: 100%;
+  }
+  .list-row_first-column {
+    width: 10%;
+    background-size: 50%;
+  }
+  .list-row_second-column {
+    width: 95%;
+    font-size: 13px;
+  }
+  .services-section_header,
+  .compare-section_header {
+    font-size: 20px;
+  }
+
+  .question-block_row {
+    font-size: 13px;
+  }
+  .FAQ-section_question-block {
+    width: 95%;
+    padding: 15px 10px;
+  }
+  .question-block_answer-block {
+    font-size: 13px;
+  }
+  .link-section_user-agreement-link,
+  .link-section_user-agreement-link:visited {
+    font-size: 12px;
+  }
+  .section_image {
+    height: 50px;
+    width: 50px;
+  }
+}
+@media screen and (max-width: 414px) {
+  body {
+    background-size: 300%;
+  }
+  .main_welcome-section {
+    align-items: center;
+  }
+  .welcome-section_header {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .welcome-section_subheader {
+    font-size: 15px;
+    text-align: center;
+  }
+  .main_number-application-form {
+    margin-left: 0;
+  }
+
+  .services-section_header,
+  .services-section {
+    margin-bottom: 50px;
+  }
+  .content-body {
+    font-size: 13px;
+  }
+  .list-section_subheader {
     font-size: 10px;
   }
-  .question-block_row {
-    font-size: 22px;
+  .compare-section_header {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .compare-section_table {
+    width: 95%;
+  }
+  .compare-row_first-column {
+    font-size: 13px;
+  }
+  .info-section-mobile_header {
+    font-size: 15px;
+  }
+  .requredActions-section_apply-button,
+  .telephone-input_preNumber,
+  .telephone-input_number {
+    font-size: 15px;
+  }
+  .requiredActions-section_telephone-input,
+  .requredActions-section_apply-button {
+    height: 40px;
+  }
+
+  .applyInfo-section_requiredActions-section {
+    height: fit-content;
+    height: -moz-fit-content;
+  }
+
+  .personalAgree-label {
+    margin-top: 0;
+    font-size: 8px;
+  }
+  .applyInfo-section_personalAgree-checkbox + label::before {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+  }
+  #toTopButton {
+    right: 30px;
   }
 }
 
-@media screen and (max-width: 1300px) {
-  .welcome-section_header {
-    font-size: 45px;
-  }
-  .list-section_subheader {
-    font-size: 18px;
-  }
-
-  .compare-row_first-column {
-    font-size: 20px;
-  }
-
-  .personalAgree-label {
-    font-size: 12px;
-  }
-  .question-block_row {
-    font-size: 22px;
-  }
+@media screen and (max-width: 375px) {
 }

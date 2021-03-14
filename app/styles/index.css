@@ -282,10 +282,6 @@ body {
   z-index: 1000;
 }
 
-.main_benefit-section {
-  min-height: 100vh;
-}
-
 /* --------------------- Services and Benefits Section */
 
 /* Insurance Section --------------------- */
@@ -370,12 +366,13 @@ body {
 
 /* Compare Section --------------------- */
 .main_compare-section {
-  height: 100vh;
+  height: fit-content;
+  height: -moz-fit-content;
   background-color: rgba(150, 221, 187, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 10%;
+  padding: 0 10% 50px 10%;
   position: relative;
   cursor: default;
 }
@@ -445,30 +442,6 @@ body {
 .cross-mark {
   background-image: url(../images/images/cross.svg);
 }
-.wave {
-  background: rgba(150, 221, 187, 0.5);
-  height: 5vh;
-  width: 100%;
-  position: absolute;
-  bottom: -5%;
-  z-index: 100;
-}
-.wave::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-repeat: repeat;
-  height: 10px;
-  background-size: 20px 20px;
-  background-image: radial-gradient(
-    circle at 10px -5px,
-    transparent 12px,
-    white 13px
-  );
-  z-index: 100;
-}
 
 /* --------------------- Compare Section */
 
@@ -476,9 +449,8 @@ body {
 
 .main_applicationForm-section {
   height: fit-content;
-  margin-top: 5vh;
-  padding: 0 10%;
-  height: 50vh;
+  height: -moz-fit-content;
+  padding: 50px 10%;
   background: #fff;
   display: flex;
   align-items: center;
@@ -645,26 +617,17 @@ body {
 
   z-index: 100;
 }
+
 /* ----------------------------------------------- Конец стилей для мини-формы заявки */
 
 /* Мобильная заявка на подбор */
-.main_applicationForm-section-mobile {
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #f2f2f2;
-  max-height: 300px;
-  height: 300px;
-  width: 100%;
-  margin-bottom: 10px;
-}
+
 .applicationForm-mobile {
   width: 86%;
   height: 100%;
   background-color: #fff;
   padding: 0px 20px;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   border-radius: 8px;
@@ -776,6 +739,9 @@ input[name="FAQsection"]:checked + label > .question-block_answer-block {
   font-size: 20px;
   font-weight: 400;
   color: #152242;
+}
+.quiestion-block_quiestion-content {
+  width: 90%;
 }
 /* --------------------- FAQ Section */
 /* Footer Section --------------------- */

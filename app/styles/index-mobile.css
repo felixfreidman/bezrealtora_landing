@@ -140,8 +140,9 @@
 
 @media screen and (max-width: 1024px) {
   body {
-    background-size: 220%;
+    background-size: cover;
     background-position: center;
+    background-image: url("../images/images/background-mobile.jpg");
   }
   .main_welcome-section {
     height: fit-content;
@@ -211,8 +212,8 @@
 
 @media screen and (max-width: 850px) {
   body {
-    background-size: 200%;
-    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
   }
   .header,
@@ -387,7 +388,7 @@
 }
 @media screen and (max-width: 499px) {
   body {
-    background-size: 400%;
+    background-size: cover;
     background-position: center;
   }
   .main_welcome-section {

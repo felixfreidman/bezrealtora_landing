@@ -821,6 +821,10 @@ input[name="FAQsection"]:checked + label > .question-block_answer-block {
   outline: none;
 }
 
+.header_contact-section-mobile {
+  display: none;
+}
+
 #application-form_input {
   margin-right: 0;
   width: 80%;

@@ -145,8 +145,7 @@
     background-image: url("../images/images/background-mobile.jpg");
   }
   .main_welcome-section {
-    height: fit-content;
-    height: -moz-fit-content;
+    height: 100vh;
     padding-bottom: 50px;
     padding-top: 100px;
   }

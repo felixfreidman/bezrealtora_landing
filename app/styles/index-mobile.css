@@ -385,7 +385,7 @@
     width: 50px;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 499px) {
   body {
     background-size: 400%;
     background-position: center;

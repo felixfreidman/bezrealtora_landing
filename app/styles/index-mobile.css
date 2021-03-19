@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-right: 5%;
 }
 .header_mobile-header {
   display: flex;
@@ -47,12 +48,15 @@
 }
 
 .header_contact-section-mobile > a > img {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
 }
 
 .header_navigation-section-mobile {
   padding-bottom: 50px;
+}
+.footer_link-section-mobile {
+  margin-bottom: 60px;
 }
 
 /* ------------------ Header burger section */
@@ -97,6 +101,7 @@
   }
   .content-head {
     font-size: 25px;
+    margin-bottom: 10px;
   }
   .content-body {
     font-size: 16px;
@@ -169,7 +174,8 @@
   }
 
   .header_navigation-section,
-  .header_contact-section {
+  .header_contact-section,
+  .footer_link-section {
     display: none;
   }
   .header_burger-button-mobile {
@@ -209,10 +215,16 @@
     /* background-repeat: no-repeat; */
     background-position: center;
   }
+  .header,
+  .footer {
+    min-height: 60px;
+  }
+  .logo-image {
+    height: 30px;
+    width: 30px;
+  }
   .main_welcome-section {
-    height: fit-content;
-    height: -moz-fit-content;
-    padding-top: 100px;
+    height: 100vh;
   }
   .insurance-image {
     display: none;
@@ -283,6 +295,10 @@
     height: 250px;
 
     margin-bottom: 20px;
+  }
+
+  .FAQ-section_question-block:hover {
+    box-shadow: none;
   }
 }
 
@@ -371,7 +387,8 @@
 }
 @media screen and (max-width: 414px) {
   body {
-    background-size: 300%;
+    background-size: 400%;
+    background-position: center;
   }
   .main_welcome-section {
     align-items: center;
@@ -398,10 +415,10 @@
     font-size: 13px;
   }
   .list-section_subheader {
-    font-size: 10px;
+    font-size: 9px;
   }
   .compare-section_header {
-    margin-top: 30px;
+    margin-top: 80px;
     font-size: 18px;
   }
   .compare-section_table {

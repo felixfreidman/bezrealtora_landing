@@ -1,420 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./app/images/favicon.png"
-      type="image/png"
-    />
-    <link rel="stylesheet" href="./app/styles/applicationForm.css" />
-    <link rel="stylesheet" href="./app/styles/index.css" />
 
-    <link rel="stylesheet" href="./app/styles/index-mobile.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./app/images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="./app/styles/applicationForm.css" />
+  <link rel="stylesheet" href="./app/styles/index.css" />
 
-    <title>
-      Безриелтора.ру - сайт объявлений от собственников недвижимости в Иркутске.
-    </title>
-  </head>
-  <body>
-    <button onclick="topFunction()" id="toTopButton" title="Go to top"></button>
-    <div class="header">
-      <div class="header_logo-section">
-        <img src="./app/images/logo/Logo.svg" alt="" class="logo-image" />
-        <div class="logo-text">РАНЬТЕ</div>
+  <link rel="stylesheet" href="./app/styles/index-mobile.css" />
+
+  <title>
+    Безриелтора.ру - сайт объявлений от собственников недвижимости в Иркутске.
+  </title>
+</head>
+
+<body>
+  <button onclick="topFunction()" id="toTopButton" title="Go to top"></button>
+  <div class="header">
+    <div class="header_logo-section">
+      <img src="./app/images/logo/Logo.svg" alt="" class="logo-image" />
+      <div class="logo-text">РАНЬТЕ</div>
+    </div>
+    <div class="header_navigation-section">
+      <a href="#service-section" class="navigation-section_nav-button button-border">Сервис</a>
+      <a href="#insurance-section" class="navigation-section_nav-button button-border">Страховка</a>
+      <a href="#benefits-section" class="navigation-section_nav-button button-border">Преимущества</a>
+      <a href="#application-section" class="navigation-section_nav-button button-border">Подать заявку</a>
+      <a href="#FAQ-section" class="navigation-section_nav-button button-border">Вопросы</a>
+    </div>
+    <div class="header_contact-section">
+      <a href="#" class="contact-link">
+        <img src="./app/images/images/instagram.svg" alt="" class="contact-logo" /> </a><a href="#"
+        class="contact-link">
+        <img src="./app/images/images/vk.svg" alt="" class="contact-logo" /> </a><a href="#" class="contact-link">
+        <img src="./app/images/images/telegram.svg" alt="" class="contact-logo" />
+      </a>
+    </div>
+    <div class="header_burger-button-mobile"></div>
+    <div class="header_dark-layer">
+      <div class="header_mobile-header">
+        <div class="header_navigation-section-mobile">
+          <a href="#service-section" class="navigation-section_nav-button button-border">Сервис</a>
+          <a href="#insurance-section" class="navigation-section_nav-button button-border">Страховка</a>
+          <a href="#benefits-section" class="navigation-section_nav-button button-border">Преимущества</a>
+          <a href="#application-section" class="navigation-section_nav-button button-border">Подать заявку</a>
+          <a href="#FAQ-section" class="navigation-section_nav-button button-border">Вопросы</a>
+        </div>
+        <div class="footer_link-section-mobile">
+          <a href="#" class="link-section_user-agreement-link">Пользовательское соглашение
+          </a>
+        </div>
       </div>
-      <div class="header_navigation-section">
-        <a
-          href="#service-section"
-          class="navigation-section_nav-button button-border"
-          >Сервис</a
-        >
-        <a
-          href="#insurance-section"
-          class="navigation-section_nav-button button-border"
-          >Страховка</a
-        >
-        <a
-          href="#benefits-section"
-          class="navigation-section_nav-button button-border"
-          >Преимущества</a
-        >
-        <a
-          href="#application-section"
-          class="navigation-section_nav-button button-border"
-          >Подать заявку</a
-        >
-        <a
-          href="#FAQ-section"
-          class="navigation-section_nav-button button-border"
-          >Вопросы</a
-        >
-      </div>
-      <div class="header_contact-section">
-        <a href="#" class="contact-link">
-          <img
-            src="./app/images/images/instagram.svg"
-            alt=""
-            class="contact-logo"
-          /> </a
-        ><a href="#" class="contact-link">
-          <img
-            src="./app/images/images/vk.svg"
-            alt=""
-            class="contact-logo"
-          /> </a
-        ><a href="#" class="contact-link">
-          <img
-            src="./app/images/images/telegram.svg"
-            alt=""
-            class="contact-logo"
-          />
-        </a>
-      </div>
-      <div class="header_burger-button-mobile"></div>
-      <div class="header_dark-layer">
-        <div class="header_mobile-header">
-          <div class="header_navigation-section-mobile">
-            <a
-              href="#service-section"
-              class="navigation-section_nav-button button-border"
-              >Сервис</a
-            >
-            <a
-              href="#insurance-section"
-              class="navigation-section_nav-button button-border"
-              >Страховка</a
-            >
-            <a
-              href="#benefits-section"
-              class="navigation-section_nav-button button-border"
-              >Преимущества</a
-            >
-            <a
-              href="#application-section"
-              class="navigation-section_nav-button button-border"
-              >Подать заявку</a
-            >
-            <a
-              href="#FAQ-section"
-              class="navigation-section_nav-button button-border"
-              >Вопросы</a
-            >
+    </div>
+  </div>
+  <div class="main">
+    <div class="main_welcome-section">
+      <span class="welcome-section_header">
+        САМЫЙ ПРОСТОЙ<br />
+        СПОСОБ СДАТЬ КВАРТИРУ
+      </span>
+      <span class="welcome-section_subheader">
+        Все хлопоты мы возьмем на себя
+      </span>
+      <form action="GET" class="main_number-application-form">
+        <span class="number-application-form_label">Мы вам перезвоним и ответим на все интересующие вас вопросы</span>
+        <div class="requiredActions-section_telephone-input" id="application-form_input">
+          <div class="telephone-input_preNumber">+7</div>
+          <input type="text" class="telephone-input_number" maxlength="10" pattern="[0][0-9]" required />
+        </div>
+        <button class="number-application-form_button" id="earlyNumberApplicationButton">
+          Оставить заявку
+        </button>
+      </form>
+    </div>
+    <div class="main_intro-section">
+      <span class="intro-section_text">
+        Благодаря сервису нового формата Рантье вам не нужно беспокоиться о своей квартире, простое аренды и сохранности
+        имущества. Мы поможем найти идеальных жильцов, возьмём контроль платежей на себя, застрахуем квартиру и все
+        риски до 1
+        млн рублей.
+      </span>
+    </div>
+    <div class="main_services-section" id="service-section">
+      <span class="services-section_header"> С чем поможет Раньте? </span>
+      <div class="services-section">
+        <div class="section_content">
+          <div class="content-head">Найдем идеального арендатора</div>
+          <div class="content-body">
+            Полностью возьмем поиск и проверку жильцов на себя. Вы не тратите
+            время на пустые звонки и разговоры с надоедливыми агентами
           </div>
-          <div class="header_contact-section-mobile">
-            <a href="#" class="contact-link">
-              <img
-                src="./app/images/images/instagram.svg"
-                alt=""
-                class="contact-logo"
-              /> </a
-            ><a href="#" class="contact-link">
-              <img
-                src="./app/images/images/vk.svg"
-                alt=""
-                class="contact-logo"
-              /> </a
-            ><a href="#" class="contact-link">
-              <img
-                src="./app/images/images/telegram.svg"
-                alt=""
-                class="contact-logo"
-              />
-            </a>
+        </div>
+        <div class="image-section">
+          <img src="./app/images/images/man.svg" alt="" class="section_image" />
+        </div>
+      </div>
+      <div class="services-section">
+        <div class="image-section">
+          <img src="./app/images/images/fast.svg" alt="" class="section_image" />
+        </div>
+        <div class="section_content">
+          <div class="content-head">Сдадим быстро</div>
+          <div class="content-body">
+            Разместим объявление на всех популряных площадках и продвинем его
+            на сервисе БезРиелтора.ру. Мы знаем как увеличить количество
+            просмотров и целевых звонков
+          </div>
+        </div>
+      </div>
+      <div class="services-section">
+        <div class="section_content">
+          <div class="content-head">Cдадим надежно</div>
+          <div class="content-body">
+            Возьмем все хлопоты на себя - сохраним Ваше имущество благодаря
+            страховке, составим перечень имущества, проверим надежность
+            арендатора, поможем с юридическим сопровождением.
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="./app/images/images/lock.svg" alt="" class="section_image" />
+        </div>
+      </div>
+      <div class="services-section">
+        <div class="image-section">
+          <img src="./app/images/images/hand.svg" alt="" class="section_image" />
+        </div>
+        <div class="section_content">
+          <div class="content-head">Будем рядом</div>
+          <div class="content-body">
+            Останемся с Вами после заселения жильцов.
+            <br />Поможем с разрешением спорных моментов. <br />Вовремя
+            напомним жильцу об оплате. <br />Оперативно подберем новых
+            арендаторов взамен съезжающих
           </div>
         </div>
       </div>
     </div>
-    <div class="main">
-      <div class="main_welcome-section">
-        <span class="welcome-section_header">
-          САМЫЙ ПРОСТОЙ<br />
-          СПОСОБ СДАТЬ КВАРТИРУ
-        </span>
-        <span class="welcome-section_subheader">
-          Все хлопоты мы возьмем на себя
-        </span>
-        <form action="GET" class="main_number-application-form">
-          <span class="number-application-form_label"
-            >Мы вам перезвоним и ответим на все интересующие вас вопросы</span
-          >
-          <div
-            class="requiredActions-section_telephone-input"
-            id="application-form_input"
-          >
-            <div class="telephone-input_preNumber">+7</div>
-            <input
-              type="text"
-              class="telephone-input_number"
-              maxlength="10"
-              pattern="[0][0-9]"
-              required
-            />
+    <div class="main_insurance-section" id="insurance-section">
+      <img src="./app/images/images/insurance.jpg" alt="" class="insurance-image" />
+      <div class="insurance-section_list-section">
+        <div class="list-section_header">Как мы защищаем собственников</div>
+        <div class="list-section_subheader">
+          Страховка квартиры и гражданской ответсвенности до 1.000.000 рублей
+        </div>
+        <div class="list-section_list-table">
+          <div class="list-table_row">
+            <div class="list-row_first-column"></div>
+            <div class="list-row_second-column">
+              Вам не нужно брать залог за сохранность имущества или депозит за
+              последний месяц. Страховка сможет заменить залог, а квартира без
+              залога гораздо привлекательнее для арендатора.
+            </div>
           </div>
-          <button
-            class="number-application-form_button"
-            id="earlyNumberApplicationButton"
-          >
-            Оставить заявку
-          </button>
+          <div class="list-table_row">
+            <div class="list-row_first-column"></div>
+            <div class="list-row_second-column">
+              Ваши платежи застрахованы. Если арендаторы съедут и не заплатят,
+              то страховая покроет месяц аренды, а мы поможем найти в короткий
+              срок новых арендаторов.
+            </div>
+          </div>
+          <div class="list-table_row">
+            <div class="list-row_first-column"></div>
+            <div class="list-row_second-column">
+              Имущество под защитой, даже если собственник не проживает в
+              квартире. Если арендатор, его дети или животные причиняет вред,
+              страховка покроет ущерб. Дети и домашние животные больше не
+              проблема для Вас.
+            </div>
+          </div>
+          <div class="list-table_row">
+            <div class="list-row_first-column"></div>
+            <div class="list-row_second-column">
+              Возможность онлайн показов для безопасности во время пандемии
+              короновируса
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_benefit-section" id="benefits-section">
+      <span class="services-section_header">Преимущества</span>
+      <div class="services-section">
+        <div class="section_content">
+          <div class="content-head">Проверка жильца</div>
+          <div class="content-body">
+            Найдем жильца по Вашим критерями и проверим, чтобы он подходил Вам
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="./app/images/images/men.svg" alt="" class="section_image" />
+        </div>
+      </div>
+      <div class="services-section">
+        <div class="image-section">
+          <img src="./app/images/images/nomoney.svg" alt="" class="section_image" />
+        </div>
+        <div class="section_content">
+          <div class="content-head">Без комиссии</div>
+          <div class="content-body">
+            Ни Вам, ни арендатору не надо оплачивать комиссию. Сервис
+            управления арендой и страховки доступен по подписке
+          </div>
+        </div>
+      </div>
+      <div class="services-section">
+        <div class="section_content">
+          <div class="content-head">Легальный доход</div>
+          <div class="content-body">
+            По Вашему желанию поможем зарегистрироваться в качестве
+            самозанятого
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="./app/images/images/check.svg" alt="" class="section_image" />
+        </div>
+      </div>
+      <div class="services-section">
+        <div class="image-section">
+          <img src="./app/images/images/data.svg" alt="" class="section_image" />
+        </div>
+        <div class="section_content">
+          <div class="content-head">Юридическое сопровождение</div>
+          <div class="content-body">
+            Поможем составить договор аренды, опись имущества и все
+            сопутствующие документы
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_compare-section">
+      <div class="compare-section_header">
+        Сдавать с нами быстрее и удобнее
+      </div>
+      <div class="compare-section_table">
+        <div class="compare-table_row">
+          <div class="compare-row_first-column"></div>
+          <div class="compare-row_second-column first-header-column">
+            <img src="./app/images/logo/Logo.svg" alt="" />
+            <div class="logo-text">РАНЬТЕ</div>
+          </div>
+          <div class="compare-row_third-column second-header-column">
+            <span class="logo-text">СДАТЬ ЧЕРЕЗ<br />
+              АГЕНТА</span>
+          </div>
+        </div>
+        <div class="compare-table_row">
+          <div class="compare-row_first-column">Размещение рекламы</div>
+          <div class="compare-row_second-column check-mark"></div>
+          <div class="compare-row_third-column check-mark"></div>
+        </div>
+        <div class="compare-table_row">
+          <div class="compare-row_first-column">
+            Гарантия стабильной ежемесячной оплаты
+          </div>
+          <div class="compare-row_second-column check-mark"></div>
+          <div class="compare-row_third-column cross-mark"></div>
+        </div>
+        <div class="compare-table_row">
+          <div class="compare-row_first-column">Проверка арендатора</div>
+          <div class="compare-row_second-column check-mark"></div>
+          <div class="compare-row_third-column cross-mark"></div>
+        </div>
+        <div class="compare-table_row">
+          <div class="compare-row_first-column">Страхование имущества</div>
+          <div class="compare-row_second-column check-mark"></div>
+          <div class="compare-row_third-column cross-mark"></div>
+        </div>
+        <div class="compare-table_row">
+          <div class="compare-row_first-column">
+            Разрешение вопросов и поддержка после сделки
+          </div>
+          <div class="compare-row_second-column check-mark"></div>
+          <div class="compare-row_third-column cross-mark"></div>
+        </div>
+      </div>
+    </div>
+    <div class="main_applicationForm-section" id="application-section">
+      <div class="applicationForm">
+        <div class="applicationForm_advertismentInfo-section">
+          <span class="advertismentInfo-section_header">Оставьте заявку</span>
+          <span class="advertismentInfo-section_subheader">Мы перезвоним Вам и расскажем подробно о том, как работает
+            услуга</span>
+        </div>
+        <form action="#" method="post" class="applicationForm_applyInfo-section">
+          <div class="applyInfo-section_requiredActions-section">
+            <div class="requiredActions-section_telephone-input">
+              <div class="telephone-input_preNumber">+7</div>
+              <input type="text" class="telephone-input_number" />
+            </div>
+            <button class="requredActions-section_apply-button">
+              Оставить заявку
+            </button>
+          </div>
+          <input type="checkbox" name="agreeCheckbox" id="agreeCheckbox"
+            class="applyInfo-section_personalAgree-checkbox" checked />
+          <label for="agreeCheckbox" class="personalAgree-label">Я даю согласие на
+            <a href="#">Обработку персональных данных</a></label>
         </form>
       </div>
-      <div class="main_intro-section">
-        <span class="intro-section_text">
-          С новым сервисом Сдай/Сними от Циан вы не беспокоитесь о своей
-          квартире. Мы поможем подобрать идеальных арендаторов, сопроводим
-          юридически и покроем потенциальные риски даже после заселения жильцов.
-        </span>
-      </div>
-      <div class="main_services-section" id="service-section">
-        <span class="services-section_header"> С чем поможет сдай/сними? </span>
-        <div class="services-section">
-          <div class="section_content">
-            <div class="content-head">Быстрый поиск арендатора</div>
-            <div class="content-body">
-              Полностью возьмем поиск и проверку жильцов на себя. Вы не тратите
-              время на пустые звонки и разговоры с надоедливыми агентами
-            </div>
-          </div>
-          <div class="image-section">
-            <img
-              src="./app/images/images/man.svg"
-              alt=""
-              class="section_image"
-            />
-          </div>
+      <div class="applicationForm-mobile">
+        <div class="applicatonForm_info-section-mobile">
+          <span class="info-section-mobile_header">Мы перезвоним Вам и расскажем подробно о том, как работает
+            услуга</span>
         </div>
-        <div class="services-section">
-          <div class="image-section">
-            <img
-              src="./app/images/images/fast.svg"
-              alt=""
-              class="section_image"
-            />
-          </div>
-          <div class="section_content">
-            <div class="content-head">Сдадим быстро</div>
-            <div class="content-body">
-              Разместим объявление на всех популряных площадках и продвинем его
-              на сервисе БезРиелтора.ру. Мы знаем как увеличить количество
-              просмотров и целевых звонков
-            </div>
-          </div>
-        </div>
-        <div class="services-section">
-          <div class="section_content">
-            <div class="content-head">Cдадим надежно</div>
-            <div class="content-body">
-              Возьмем все хлопоты на себя - сохраним Ваше имущество благодаря
-              страховке, составим перечень имущества, проверим надежность
-              арендатора, поможем с юридическим сопровождением.
-            </div>
-          </div>
-          <div class="image-section">
-            <img
-              src="./app/images/images/lock.svg"
-              alt=""
-              class="section_image"
-            />
-          </div>
-        </div>
-        <div class="services-section">
-          <div class="image-section">
-            <img
-              src="./app/images/images/hand.svg"
-              alt=""
-              class="section_image"
-            />
-          </div>
-          <div class="section_content">
-            <div class="content-head">Будем рядом</div>
-            <div class="content-body">
-              Останемся с Вами после заселения жильцов.
-              <br />Поможем с разрешением спорных моментов. <br />Вовремя
-              напомним жильцу об оплате. <br />Оперативно подберем новых
-              арендаторов взамен съезжающих
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="main_insurance-section" id="insurance-section">
-        <img
-          src="./app/images/images/insurance.jpg"
-          alt=""
-          class="insurance-image"
-        />
-        <div class="insurance-section_list-section">
-          <div class="list-section_header">Как мы защищаем собственников</div>
-          <div class="list-section_subheader">
-            Страховка квартиры и гражданской ответсвенности до 1.000.000 рублей
-          </div>
-          <div class="list-section_list-table">
-            <div class="list-table_row">
-              <div class="list-row_first-column"></div>
-              <div class="list-row_second-column">
-                Вам не нужно брать залог за сохранность имущества или депозит за
-                последний месяц. Страховка сможет заменить залог, а квартира без
-                залога гораздо привлекательнее для арендатора.
-              </div>
-            </div>
-            <div class="list-table_row">
-              <div class="list-row_first-column"></div>
-              <div class="list-row_second-column">
-                Ваши платежи застрахованы. Если арендаторы съедут и не заплатят,
-                то страховая покроет месяц аренды, а мы поможем найти в короткий
-                срок новых арендаторов.
-              </div>
-            </div>
-            <div class="list-table_row">
-              <div class="list-row_first-column"></div>
-              <div class="list-row_second-column">
-                Имущество под защитой, даже если собственник не проживает в
-                квартире. Если арендатор, его дети или животные причиняет вред,
-                страховка покроет ущерб. Дети и домашние животные больше не
-                проблема для Вас.
-              </div>
-            </div>
-            <div class="list-table_row">
-              <div class="list-row_first-column"></div>
-              <div class="list-row_second-column">
-                Возможность онлайн показов для безопасности во время пандемии
-                короновируса
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="main_benefit-section" id="benefits-section">
-        <span class="services-section_header">Преимущества</span>
-        <div class="services-section">
-          <div class="section_content">
-            <div class="content-head">Проверка жильца</div>
-            <div class="content-body">
-              Найдем жильца по Вашим критерями и проверим, чтобы он подходил Вам
-            </div>
-          </div>
-          <div class="image-section">
-            <img
-              src="./app/images/images/men.svg"
-              alt=""
-              class="section_image"
-            />
-          </div>
-        </div>
-        <div class="services-section">
-          <div class="image-section">
-            <img
-              src="./app/images/images/nomoney.svg"
-              alt=""
-              class="section_image"
-            />
-          </div>
-          <div class="section_content">
-            <div class="content-head">Без комиссии</div>
-            <div class="content-body">
-              Ни Вам, ни арендатору не надо оплачивать комиссию. Сервис
-              управления арендой и страховки доступен по подписке
-            </div>
-          </div>
-        </div>
-        <div class="services-section">
-          <div class="section_content">
-            <div class="content-head">Легальный доход</div>
-            <div class="content-body">
-              По Вашему желанию поможем зарегистрироваться в качестве
-              самозанятого
-            </div>
-          </div>
-          <div class="image-section">
-            <img
-              src="./app/images/images/check.svg"
-              alt=""
-              class="section_image"
-            />
-          </div>
-        </div>
-        <div class="services-section">
-          <div class="image-section">
-            <img
-              src="./app/images/images/data.svg"
-              alt=""
-              class="section_image"
-            />
-          </div>
-          <div class="section_content">
-            <div class="content-head">Юридическое сопровождение</div>
-            <div class="content-body">
-              Поможем составить договор аренды, опись имущества и все
-              сопутствующие документы
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="main_compare-section">
-        <div class="compare-section_header">
-          Сдавать с нами быстрее и удобнее
-        </div>
-        <div class="compare-section_table">
-          <div class="compare-table_row">
-            <div class="compare-row_first-column"></div>
-            <div class="compare-row_second-column first-header-column">
-              <img src="./app/images/logo/Logo.svg" alt="" />
-              <div class="logo-text">РАНЬТЕ</div>
-            </div>
-            <div class="compare-row_third-column second-header-column">
-              <span class="logo-text"
-                >СДАТЬ ЧЕРЕЗ<br />
-                АГЕНТА</span
-              >
-            </div>
-          </div>
-          <div class="compare-table_row">
-            <div class="compare-row_first-column">
-              Профессиональная предпродажная подготовка
-            </div>
-            <div class="compare-row_second-column check-mark"></div>
-            <div class="compare-row_third-column check-mark"></div>
-          </div>
-          <div class="compare-table_row">
-            <div class="compare-row_first-column">Размещение рекламы</div>
-            <div class="compare-row_second-column check-mark"></div>
-            <div class="compare-row_third-column check-mark"></div>
-          </div>
-          <div class="compare-table_row">
-            <div class="compare-row_first-column">Проверка арендатора</div>
-            <div class="compare-row_second-column check-mark"></div>
-            <div class="compare-row_third-column cross-mark"></div>
-          </div>
-          <div class="compare-table_row">
-            <div class="compare-row_first-column">Страхование имущества</div>
-            <div class="compare-row_second-column check-mark"></div>
-            <div class="compare-row_third-column cross-mark"></div>
-          </div>
-          <div class="compare-table_row">
-            <div class="compare-row_first-column">
-              Разрешение вопросов и поддержка после сделки
-            </div>
-            <div class="compare-row_second-column check-mark"></div>
-            <div class="compare-row_third-column cross-mark"></div>
-          </div>
-        </div>
-      </div>
-      <div class="main_applicationForm-section" id="application-section">
-        <div class="applicationForm">
-          <div class="applicationForm_advertismentInfo-section">
-            <span class="advertismentInfo-section_header">Оставьте заявку</span>
-            <span class="advertismentInfo-section_subheader"
-              >Мы перезвоним Вам и расскажем подробно о том, как работает
-              услуга</span
-            >
-          </div>
-          <form
-            action="#"
-            method="post"
-            class="applicationForm_applyInfo-section"
-          >
+        <div class="applicationForm_apply-section-mobile">
+          <form action="#" method="post" class="applicationForm_applyInfo-section-mobile">
             <div class="applyInfo-section_requiredActions-section">
               <div class="requiredActions-section_telephone-input">
                 <div class="telephone-input_preNumber">+7</div>
@@ -424,279 +317,172 @@
                 Оставить заявку
               </button>
             </div>
-            <input
-              type="checkbox"
-              name="agreeCheckbox"
-              id="agreeCheckbox"
-              class="applyInfo-section_personalAgree-checkbox"
-              checked
-            />
-            <label for="agreeCheckbox" class="personalAgree-label"
-              >Я даю согласие на
-              <a href="#">Обработку персональных данных</a></label
-            >
+            <input type="checkbox" name="agreeCheckbox" id="agreeCheckbox" checked
+              class="applyInfo-section_personalAgree-checkbox" />
+            <label for="agreeCheckbox" class="personalAgree-label">Я даю согласие на
+              <a href="#">Обработку персональных данных</a></label>
           </form>
         </div>
-        <div class="applicationForm-mobile">
-          <div class="applicatonForm_info-section-mobile">
-            <span class="info-section-mobile_header"
-              >Мы перезвоним Вам и расскажем подробно о том, как работает
-              услуга</span
-            >
+      </div>
+    </div>
+    <div class="main_FAQ-section" id="FAQ-section">
+      <input type="checkbox" name="FAQsection" id="firstQuestion" />
+      <label for="firstQuestion" class="FAQ-section_question-block">
+        <div class="question-block_row">
+          <div class="quiestion-block_quiestion-content">
+            Чем полезен Наш сервис собственнику?
           </div>
-          <div class="applicationForm_apply-section-mobile">
-            <form
-              action="#"
-              method="post"
-              class="applicationForm_applyInfo-section-mobile"
-            >
-              <div class="applyInfo-section_requiredActions-section">
-                <div class="requiredActions-section_telephone-input">
-                  <div class="telephone-input_preNumber">+7</div>
-                  <input type="text" class="telephone-input_number" />
-                </div>
-                <button class="requredActions-section_apply-button">
-                  Оставить заявку
-                </button>
-              </div>
-              <input
-                type="checkbox"
-                name="agreeCheckbox"
-                id="agreeCheckbox"
-                checked
-                class="applyInfo-section_personalAgree-checkbox"
-              />
-              <label for="agreeCheckbox" class="personalAgree-label"
-                >Я даю согласие на
-                <a href="#">Обработку персональных данных</a></label
-              >
-            </form>
-          </div>
+          <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" class="question-block-indicator">
+            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square">
+              <g transform="translate(1.000000, 1.000000)" stroke="#222222">
+                <path d="M0,11 L22,11"></path>
+                <path d="M11,0 L11,22"></path>
+              </g>
+            </g>
+          </svg>
         </div>
-      </div>
-      <div class="main_FAQ-section" id="FAQ-section">
-        <input type="checkbox" name="FAQsection" id="firstQuestion" />
-        <label for="firstQuestion" class="FAQ-section_question-block">
-          <div class="question-block_row">
-            <div class="quiestion-block_quiestion-content">
-              Чем полезен Наш сервис собственнику?
-            </div>
-            <svg
-              width="24px"
-              height="24px"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              class="question-block-indicator"
-            >
-              <g
-                stroke="none"
-                stroke-width="1px"
-                fill="none"
-                fill-rule="evenodd"
-                stroke-linecap="square"
-              >
-                <g transform="translate(1.000000, 1.000000)" stroke="#222222">
-                  <path d="M0,11 L22,11"></path>
-                  <path d="M11,0 L11,22"></path>
-                </g>
-              </g>
-            </svg>
-          </div>
 
-          <div class="question-block_answer-block">
-            Вы экономите свое время - мы полностью берем на себя поиск
-            идеального жильца. Мы разместим объявление о сдаче на всех
-            популряных площадках аренды, возьмем на себя звонки, отфильтруем и
-            выберем нужного кандидата по нобходимым критериям, застрахуем
-            недвижимость, поможем подготовить договор аренды и опись имущества,
-            поможем зарегистрироваться в качестве самозанятого при
-            необходимости. У вас будет свой личный менеджер, который возьмет на
-            себя разрешение вопросов и напомнит арендатору о своевременной
-            оплате, а также поможет найти новых арендаторов.
+        <div class="question-block_answer-block">
+          Вы экономите свое время - мы полностью берем на себя поиск
+          идеального жильца. Мы разместим объявление о сдаче на всех
+          популряных площадках аренды, возьмем на себя звонки, отфильтруем и
+          выберем нужного кандидата по нобходимым критериям, застрахуем
+          недвижимость, поможем подготовить договор аренды и опись имущества,
+          поможем зарегистрироваться в качестве самозанятого при
+          необходимости. У вас будет свой личный менеджер, который возьмет на
+          себя разрешение вопросов и напомнит арендатору о своевременной
+          оплате, а также поможет найти новых арендаторов.
+        </div>
+      </label>
+      <input type="checkbox" name="FAQsection" id="secondQuestion" />
+      <label for="secondQuestion" class="FAQ-section_question-block">
+        <div class="question-block_row">
+          <div class="quiestion-block_quiestion-content">
+            Чем полезен Наш сервис арендатору?
           </div>
-        </label>
-        <input type="checkbox" name="FAQsection" id="secondQuestion" />
-        <label for="secondQuestion" class="FAQ-section_question-block">
-          <div class="question-block_row">
-            <div class="quiestion-block_quiestion-content">
-              Чем полезен Наш сервис арендатору?
-            </div>
-            <svg
-              width="24px"
-              height="24px"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              class="question-block-indicator"
-            >
-              <g
-                stroke="none"
-                stroke-width="1px"
-                fill="none"
-                fill-rule="evenodd"
-                stroke-linecap="square"
-              >
-                <g transform="translate(1.000000, 1.000000)" stroke="#222222">
-                  <path d="M0,11 L22,11"></path>
-                  <path d="M11,0 L11,22"></path>
-                </g>
+          <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" class="question-block-indicator">
+            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square">
+              <g transform="translate(1.000000, 1.000000)" stroke="#222222">
+                <path d="M0,11 L22,11"></path>
+                <path d="M11,0 L11,22"></path>
               </g>
-            </svg>
-          </div>
+            </g>
+          </svg>
+        </div>
 
-          <div class="question-block_answer-block">
-            Вы экономите деньги на комиссии и залоге. Залог, депозит, и комиссию
-            мы решили заменить на систему подписки, в стоиомсть которой входит
-            сбор за сервис и стоиомость страховки жилья. Вы получаете
-            круглосуточную поддержку
+        <div class="question-block_answer-block">
+          Вы экономите деньги на комиссии и залоге. Залог, депозит, и комиссию
+          мы решили заменить на систему подписки, в стоиомсть которой входит
+          сбор за сервис и стоиомость страховки жилья. Вы получаете
+          круглосуточную поддержку
+        </div>
+      </label>
+      <input type="checkbox" name="FAQsection" id="thirdQuestion" />
+      <label for="thirdQuestion" class="FAQ-section_question-block">
+        <div class="question-block_row">
+          <div class="quiestion-block_quiestion-content">
+            Обязательно ли регистрироваться в качестве самозанятого?
           </div>
-        </label>
-        <input type="checkbox" name="FAQsection" id="thirdQuestion" />
-        <label for="thirdQuestion" class="FAQ-section_question-block">
-          <div class="question-block_row">
-            <div class="quiestion-block_quiestion-content">
-              Обязательно ли регистрироваться в качестве самозанятого?
-            </div>
-            <svg
-              width="24px"
-              height="24px"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              class="question-block-indicator"
-            >
-              <g
-                stroke="none"
-                stroke-width="1px"
-                fill="none"
-                fill-rule="evenodd"
-                stroke-linecap="square"
-              >
-                <g transform="translate(1.000000, 1.000000)" stroke="#222222">
-                  <path d="M0,11 L22,11"></path>
-                  <path d="M11,0 L11,22"></path>
-                </g>
+          <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" class="question-block-indicator">
+            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square">
+              <g transform="translate(1.000000, 1.000000)" stroke="#222222">
+                <path d="M0,11 L22,11"></path>
+                <path d="M11,0 L11,22"></path>
               </g>
-            </svg>
-          </div>
+            </g>
+          </svg>
+        </div>
 
-          <div class="question-block_answer-block">
-            Нет, не обязательно, но по желанию мы можем помочь с регистрацией в
-            налоговых органах. Налоговая ставка 4%(3% - первые 2 года).
-            Отказаться от статуса самозанятого можно в любой момент
+        <div class="question-block_answer-block">
+          Нет, не обязательно, но по желанию мы можем помочь с регистрацией в
+          налоговых органах. Налоговая ставка 4%(3% - первые 2 года).
+          Отказаться от статуса самозанятого можно в любой момент
+        </div>
+      </label>
+      <input type="checkbox" name="FAQsection" id="fourthQuestion" />
+      <label for="fourthQuestion" class="FAQ-section_question-block">
+        <div class="question-block_row">
+          <div class="quiestion-block_quiestion-content">
+            Кто проводит показы?
           </div>
-        </label>
-        <input type="checkbox" name="FAQsection" id="fourthQuestion" />
-        <label for="fourthQuestion" class="FAQ-section_question-block">
-          <div class="question-block_row">
-            <div class="quiestion-block_quiestion-content">
-              Кто проводит показы?
-            </div>
-            <svg
-              width="24px"
-              height="24px"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              class="question-block-indicator"
-            >
-              <g
-                stroke="none"
-                stroke-width="1px"
-                fill="none"
-                fill-rule="evenodd"
-                stroke-linecap="square"
-              >
-                <g transform="translate(1.000000, 1.000000)" stroke="#222222">
-                  <path d="M0,11 L22,11"></path>
-                  <path d="M11,0 L11,22"></path>
-                </g>
+          <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" class="question-block-indicator">
+            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square">
+              <g transform="translate(1.000000, 1.000000)" stroke="#222222">
+                <path d="M0,11 L22,11"></path>
+                <path d="M11,0 L11,22"></path>
               </g>
-            </svg>
-          </div>
+            </g>
+          </svg>
+        </div>
 
-          <div class="question-block_answer-block">
-            Мы полностью онлайн сервис аренды, мы подбираем арендаторов и
-            единственное, что вам остается - Лично познакомиться с арендатором.
-            Для нас важно, чтобы Вы знали кто будет снимать у вас жилье. Все
-            остальные вопросы остаются на нас - размещение объявления, его
-            продвижение, прием звонков и сообщений, фильтрация, юридическое
-            сопровождение, страхование недвижимости и многое другое.
+        <div class="question-block_answer-block">
+          Мы полностью онлайн сервис аренды, мы подбираем арендаторов и
+          единственное, что вам остается - Лично познакомиться с арендатором.
+          Для нас важно, чтобы Вы знали кто будет снимать у вас жилье. Все
+          остальные вопросы остаются на нас - размещение объявления, его
+          продвижение, прием звонков и сообщений, фильтрация, юридическое
+          сопровождение, страхование недвижимости и многое другое.
+        </div>
+      </label>
+      <input type="checkbox" name="FAQsection" id="fifthQuestion" />
+      <label for="fifthQuestion" class="FAQ-section_question-block">
+        <div class="question-block_row">
+          <div class="quiestion-block_quiestion-content">
+            Кто оплачивает сервис?
           </div>
-        </label>
-        <input type="checkbox" name="FAQsection" id="fifthQuestion" />
-        <label for="fifthQuestion" class="FAQ-section_question-block">
-          <div class="question-block_row">
-            <div class="quiestion-block_quiestion-content">
-              Кто оплачивает сервис?
-            </div>
-            <svg
-              width="24px"
-              height="24px"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              class="question-block-indicator"
-            >
-              <g
-                stroke="none"
-                stroke-width="1px"
-                fill="none"
-                fill-rule="evenodd"
-                stroke-linecap="square"
-              >
-                <g transform="translate(1.000000, 1.000000)" stroke="#222222">
-                  <path d="M0,11 L22,11"></path>
-                  <path d="M11,0 L11,22"></path>
-                </g>
+          <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" class="question-block-indicator">
+            <g stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd" stroke-linecap="square">
+              <g transform="translate(1.000000, 1.000000)" stroke="#222222">
+                <path d="M0,11 L22,11"></path>
+                <path d="M11,0 L11,22"></path>
               </g>
-            </svg>
-          </div>
+            </g>
+          </svg>
+        </div>
 
-          <div class="question-block_answer-block">
-            Все платы (залог, депозит, комиссия) в нашем сервисе мы решили
-            заменить на более доступный вариант системы подписки, которая может
-            оплачиваться как собственником, так и арендатором. Стоимость
-            подписки зависит от тарифа страховки стоимости аренды. Подробные
-            условия и тарифы можно уточнить, оставив заявку. Также тарифы и
-            условия есть в пользовательном соглашении БезРиелтора.ру
-          </div>
-        </label>
-      </div>
+        <div class="question-block_answer-block">
+          Все платы (залог, депозит, комиссия) в нашем сервисе мы решили
+          заменить на более доступный вариант системы подписки, которая может
+          оплачиваться как собственником, так и арендатором. Стоимость
+          подписки зависит от тарифа страховки стоимости аренды. Подробные
+          условия и тарифы можно уточнить, оставив заявку. Также тарифы и
+          условия есть в пользовательном соглашении БезРиелтора.ру
+        </div>
+      </label>
     </div>
-    <div class="footer">
-      <div class="header_logo-section">
-        <img src="./app/images/logo/Logo.svg" alt="" class="logo-image" />
-        <div class="logo-text">РАНЬТЕ</div>
-      </div>
-      <div class="footer_link-section">
-        <a href="#" class="link-section_user-agreement-link"
-          >Пользовательское соглашение
-        </a>
-      </div>
-      <div class="header_contact-section">
-        <a href="#" class="contact-link">
-          <img
-            src="./app/images/images/instagram.svg"
-            alt=""
-            class="contact-logo"
-          /> </a
-        ><a href="#" class="contact-link">
-          <img
-            src="./app/images/images/vk.svg"
-            alt=""
-            class="contact-logo"
-          /> </a
-        ><a href="#" class="contact-link">
-          <img
-            src="./app/images/images/telegram.svg"
-            alt=""
-            class="contact-logo"
-          />
-        </a>
-      </div>
+  </div>
+  <div class="footer">
+    <div class="header_logo-section">
+      <img src="./app/images/logo/Logo.svg" alt="" class="logo-image" />
+      <div class="logo-text">РАНЬТЕ</div>
     </div>
-    <script src="./app/scripts/index.js"></script>
-  </body>
+    <div class="header_contact-section-mobile">
+      <a href="#" class="contact-link">
+        <img src="./app/images/images/instagram.svg" alt="" class="contact-logo" /> </a><a href="#"
+        class="contact-link">
+        <img src="./app/images/images/vk.svg" alt="" class="contact-logo" /> </a><a href="#" class="contact-link">
+        <img src="./app/images/images/telegram.svg" alt="" class="contact-logo" />
+      </a>
+    </div>
+    <div class="footer_link-section">
+      <a href="#" class="link-section_user-agreement-link">Пользовательское соглашение
+      </a>
+    </div>
+    <div class="header_contact-section">
+      <a href="#" class="contact-link">
+        <img src="./app/images/images/instagram.svg" alt="" class="contact-logo" /> </a><a href="#"
+        class="contact-link">
+        <img src="./app/images/images/vk.svg" alt="" class="contact-logo" /> </a><a href="#" class="contact-link">
+        <img src="./app/images/images/telegram.svg" alt="" class="contact-logo" />
+      </a>
+    </div>
+  </div>
+  <script src="./app/scripts/index.js"></script>
+</body>
+
 </html>

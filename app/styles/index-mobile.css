@@ -390,7 +390,7 @@
 @media screen and (max-width: 499px) {
   body {
     background-size: 150%;
-    background-attachment: fixed;
+    background-repeat: repeat;
   }
   .main_welcome-section {
     align-items: center;

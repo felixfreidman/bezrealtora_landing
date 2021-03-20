@@ -389,8 +389,8 @@
 }
 @media screen and (max-width: 499px) {
   body {
-    background-size: 200%;
-    background-position: bottom;
+    background-size: 150%;
+    background-attachment: fixed;
   }
   .main_welcome-section {
     align-items: center;

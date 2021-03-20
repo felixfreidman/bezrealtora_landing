@@ -142,7 +142,6 @@
   body {
     background-size: cover;
     background-position: center;
-    background-image: url("../images/images/background-mobile.jpg");
   }
   .main_welcome-section {
     height: 80vh;
@@ -303,6 +302,9 @@
 }
 
 @media screen and (max-width: 700px) {
+  body {
+    background-image: url("../images/images/background-mobile.jpg");
+  }
   .number-application-form_label {
     font-size: 20px;
   }

@@ -300,7 +300,7 @@
   }
 
   .FAQ-section_question-block:hover {
-    box-shadow: none;
+    box-shadow: rgba(255, 255, 255, 0);
   }
 }
 
@@ -335,7 +335,7 @@
     width: 90%;
   }
   .FAQ-section_question-block:hover {
-    box-shadow: none;
+    box-shadow: rgba(255, 255, 255, 0);
   }
 }
 @media screen and (max-width: 600px) {

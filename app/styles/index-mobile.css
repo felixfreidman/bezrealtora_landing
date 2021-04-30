@@ -305,7 +305,7 @@
 }
 
 @media screen and (max-width: 700px) {
-  body {
+  .main_welcome-section {
     background-image: url("../images/images/background-mobile.jpg");
     background-size: cover;
   }

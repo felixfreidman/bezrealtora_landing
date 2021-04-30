@@ -89,6 +89,7 @@ body {
   font-family: "Nominee";
   font-weight: 500;
   margin-left: 5px;
+  text-transform: uppercase;
 }
 
 .header_navigation-section {
@@ -104,6 +105,7 @@ body {
   padding: 0px 10px;
   cursor: pointer;
   position: relative;
+  height: 80px;
 }
 
 .button-border {

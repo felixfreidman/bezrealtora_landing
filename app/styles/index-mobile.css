@@ -144,9 +144,12 @@
     background-position: center;
   }
   .main_welcome-section {
-    height: 80vh;
+    height: calc(80vh + 100px);
     padding-bottom: 50px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
+  }
+  .welcome-section_header {
+    margin-top: 40px;
   }
   .main_number-application-form {
     height: 200px;
@@ -304,6 +307,7 @@
 @media screen and (max-width: 700px) {
   body {
     background-image: url("../images/images/background-mobile.jpg");
+    background-size: cover;
   }
   .main_compare-section {
     background: url("../images/images/background-mobile.jpg");
@@ -329,6 +333,9 @@
   }
   .services-section {
     width: 90%;
+  }
+  .FAQ-section_question-block:hover {
+    box-shadow: none;
   }
 }
 @media screen and (max-width: 600px) {
@@ -390,18 +397,16 @@
     height: 50px;
     width: 50px;
   }
-}
-@media screen and (max-width: 499px) {
+
   body {
-    background-size: 150%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: unset;
   }
   .main_welcome-section {
     align-items: center;
   }
   .welcome-section_header {
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 0;
     text-align: center;
   }

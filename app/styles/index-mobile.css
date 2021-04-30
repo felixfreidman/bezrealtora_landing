@@ -397,11 +397,6 @@
     height: 50px;
     width: 50px;
   }
-
-  body {
-    background-repeat: no-repeat;
-    background-position: unset;
-  }
   .main_welcome-section {
     align-items: center;
   }
